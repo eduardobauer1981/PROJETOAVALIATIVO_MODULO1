@@ -18,7 +18,6 @@ Atuando como um Cientista de Dados foi estruturado um Pipeline Preditivo complet
 * Criação do repositorio no github por meio da conta já cadastrada. Foi também criada uma branch develop para subir o codigo conforme for sendo feito, evitando que vá direto para main enquanto não for testado e aprovado.
 
 ```bash
-
 ├── .gitignore
 ├── projeto_maquinas.ipynb
 ├── README.md
@@ -31,7 +30,7 @@ Atuando como um Cientista de Dados foi estruturado um Pipeline Preditivo complet
 
 * Gerar a .venv para criar um ambiente separado do sistema operacional da máquina que roda o VSCode.
 
-* 
+* No terminal VScode  --> pip install -r requirements.txt
 
 
 
