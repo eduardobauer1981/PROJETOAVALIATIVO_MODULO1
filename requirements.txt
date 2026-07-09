@@ -6,3 +6,4 @@ seaborn
 lightgbm
 scikit-learn
 sklearn
+imbalanced-learn
