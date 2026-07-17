@@ -50,7 +50,7 @@ Dois algoritmos de classificação são treinados, ajustados e comparados — **
 | Modelo | Configuração | Acurácia (teste) | Falsos Negativos |
 |---|---|---|---|
 | KNN | `n_neighbors=3` | 90,50% | 24 |
-| Árvore de Decisão | `max_depth=5` | — | **12** |
+| Árvore de Decisão | `max_depth=5` | 89,95% | **12** |
 
 Apesar de o KNN apresentar acurácia bruta ligeiramente superior, a **matriz de confusão** mostra que ele comete o dobro de Falsos Negativos em relação à Árvore de Decisão (24 contra 12). Como o objetivo do sistema é detectar falhas reais — e deixar uma falha passar despercebida (falso negativo) é muito mais custoso do que um alarme falso — **a Árvore de Decisão (`max_depth=5`) foi escolhida como modelo final**, por errar menos no ponto mais crítico do problema.
 
