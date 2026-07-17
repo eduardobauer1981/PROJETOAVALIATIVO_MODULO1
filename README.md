@@ -1,4 +1,4 @@
-# PreditivIA — Pipeline de Manutenção Preditiva Industrial
+# Nome do software: projeto_maquinas
 
 Projeto avaliativo do Módulo 1 (Semana 14) — Desenvolvimento de IA para Análise Preditiva.
 
@@ -23,8 +23,6 @@ Dois algoritmos de classificação são treinados, ajustados e comparados — **
 - `matplotlib` e `seaborn` — visualização
 - `scikit-learn` — modelagem (KNN, Árvore de Decisão, StandardScaler, métricas)
 - `imbalanced-learn` (SMOTE) — balanceamento de classes
-
-# Nome do software: projeto_maquinas
 
 **Etapas do pipeline:**
 
@@ -78,7 +76,6 @@ Apesar de o KNN apresentar acurácia bruta ligeiramente superior, a **matriz de 
 ## 🔭 Melhorias Futuras
 
 - Testar outros algoritmos de classificação (Random Forest, XGBoost, LightGBM) para comparação de desempenho.
-- Investigar a multicolinearidade entre `velocidade_rotacao_rpm`/`torque_nm` e `temperatura_ar_k`/`temperatura_processo_k`, avaliando remoção ou combinação dessas variáveis.
 - Testar outras técnicas de balanceamento (ex: SMOTE-Tomek, ADASYN) e comparar o impacto no número de falsos negativos.
 - Persistir o modelo final (ex: `joblib`/`pickle`) e disponibilizar uma API simples para predições em tempo real.
 
